@@ -25,9 +25,14 @@
     transform: translateY(-50%);
     color: #fff;
 }
+.content p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 .content h1{
     font-size: 64px;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 .content h1 span{
     color: #ff3753;
@@ -59,11 +64,19 @@
 
 }
 .launch-time div span{
-    font-size: 10px;
-}
+    font-size:20px;
+   margin-right: 10px;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 10px; 
+} 
+
 .launch-time div p{
-    font-size: 60px;
-    margin-bottom: -14px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 7px;
+    margin-right: 20px;
 }
 .rocket{
     width: 250px;
@@ -83,3 +96,36 @@
         opacity: 1;
     }
 }
+
+@media
+    (max-width: 600px)
+    {
+        .launch-time{
+            font-size: 30px;
+        }
+
+        .launch-time span{
+            font-size: 20px;
+            justify-content: space-between;
+            padding: 10px; 
+            margin-left: -10px;
+        }
+        .launch-time p{
+            font-weight: 600;
+            margin-left:-10px ;
+        }
+
+        .content h1{
+            font-size: 25px;
+        }
+        .content p{
+            font-size: 15px;
+        }
+
+        .logo{
+            margin-top: 30px;
+        }
+        .rocket{
+            width: 20%;;
+        }
+    }
