@@ -63,19 +63,17 @@
     flex-basis: 100px;
 
 }
-.launch-time div span{
-    font-size:20px;
-   margin-right: 10px;
-    font-size: 20px;
-    padding: 10px; 
-} 
+ .launch-time div span{
+    font-size:23px;
+}  
 
 .launch-time div p{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 600;
-    margin-bottom: 10px;
-    margin-left: 7px;
-    margin-right: 40px;
+    margin-bottom: 2px;
+    padding: 10px;
+    margin-left: -15px;
+   
 }
 .rocket{
     width: 250px;
@@ -96,34 +94,35 @@
     }
 }
 
-@media
-    (max-width: 600px)
+@media(max-width: 600px)
     {
-        .launch-time{
-            font-size: 30px;
+        .container{
+            padding: 5 10%;
         }
-
-        .launch-time span{
-            font-size: 20px;
-            padding: 10px; 
-            margin-left: -10px;
+        .logo{
+           margin-top: 15px;
         }
-        .launch-time p{
-            font-weight: 400;
-            margin-left: -10px ;
-        }
-
         .content h1{
-            font-size: 25px;
+            font-size:20px;
+            font-weight:600;
+            margin-bottom: 10px;
+        
         }
         .content p{
-            font-size: 15px;
+            font-size:13px;
+            margin-bottom: 30px;
+            font-weight:600;
+        
         }
-
-        .logo{
-            margin-top: 30px;
+        .launch-time div p{
+            font-size: 30px;
+            margin-bottom: -5px;
+        }
+        .launch-time div span{
+            font-size: 10px;
+            margin-bottom: -5px;
         }
         .rocket{
-            width: 20%;;
-        }
+            width:100px; 
     }
+}
